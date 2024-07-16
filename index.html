@@ -59,7 +59,13 @@
         <form id="selectionForm">
             <div class="form-group">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" required>
+                <select id="name" name="name" required>
+                    <option value="" disabled selected>Select a player</option>
+                    <!-- Add player options here -->
+                    <option value="Sankhadeep">Sankhadeep</option>
+                    <option value="Praveen">Praveen</option>
+                    <option value="Tomsy">Tomsy</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="captain">Vote for Captain</label>
